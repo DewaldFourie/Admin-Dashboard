@@ -1,0 +1,164 @@
+
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template: 1fr 4fr / 1fr 5fr;
+}
+
+/* Header Section*/
+.header {
+    background-color: whitesmoke;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template: 1fr 1fr / 2fr 1fr;
+    padding: 0 50px;
+}
+
+
+.profile-info {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-info-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-greeting {
+    margin-bottom: 5px;
+}
+
+.username-main {
+    margin: 0;
+}
+
+.profile-image-main {
+    width: 75px;
+    height: 75px;
+}
+
+.profile-image-sub {
+    width: 50px;
+    height: 50px;
+}
+
+.notifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.action-btn {
+    background-color: blue;
+    color: whitesmoke;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    gap: 20px;
+}
+
+.search-input {
+
+}
+
+.search-input-bar {
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+    width: 550px;
+    height: 30px;
+}
+
+
+/* Sidebar Section*/
+.sidebar {
+    color: whitesmoke;
+    background-color: blue;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    padding-bottom: 30rem;
+    gap: 3rem;
+}
+
+li {
+    padding-left: 2rem;
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.navigation-items {
+
+}
+
+.suppoort-items {
+
+}
+
+/* Main Section*/
+.main {
+    padding: 1rem;
+    background-color: rgb(231, 231, 231);
+    display: grid;
+    grid: 1fr 1fr / 3fr 1fr;
+    gap: 1rem;
+}
+
+.projects {
+    border: solid black;
+    grid-row: span 2;
+}
+
+.announcements {
+    border: solid black;
+}
+
+.trending {
+    border: solid black;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 15px;
+}
+
+.card {
+    background-color: aliceblue;
+    border-radius: 7px;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+}
