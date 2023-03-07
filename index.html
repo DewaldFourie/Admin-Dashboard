@@ -5,26 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
 <body>
     <div class="header">
         <div class="search-bar">
-            <button class="search-button"><img src="" alt="search-icon"></button>
+            <button class="search-btn"><img class="search-image" src="images/search.png" alt="search-icon"></button>
             <form action="" class="search-input">
-                <input type="text" class="search-input-bar">
+                <input type="text" class="search-input-bar" placeholder=" Search">
             </form>
         </div>
         <div class="notifications">
-            <img class="notification-bell" src="" alt="notification-bell">
-            <img class="profile-image-sub" src="images/profile-image-PH.png" alt="profile-image-sub">
-            <h3>User Name</h3>
+            <img class="notification-bell" src="images/icons8-notification-bell-50.png" alt="notification-bell">
+            <img class="profile-image-sub" src="images/turtle2.png" alt="profile-image-sub">
+            <h3>Squirt Turtle</h3>
         </div>
         <div class="profile-info">
-            <img class="profile-image-main" src="images/profile-image-PH.png" alt="profile-image">
+            <img class="profile-image-main" src="images/turtle2.png" alt="profile-image">
             <div class="profile-info-text">
                 <h5 class="user-greeting">Hi there,</h5>
-                <h2 class="username-main">User Name (@username)</h2>
+                <h2 class="username-main"> Squirt Turtle (@STurtle)</h2>
             </div>
         </div>
         <div class="action-buttons">
@@ -35,55 +38,170 @@
     </div>
     <div class="sidebar">
         <div class="logo">
+            <img class="dashboard-image" src="images/icons8-dashboard-layout-48.png" alt="icons8-dashboard-layout-48">
             <h1>Dashboard</h1>
         </div>
         <div class="navigation-items">
             <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+                <li><img class="sidebar-image" src="images/icons8-home-page-24.png" alt="home-icon">Home</li>
+                <li><img class="sidebar-image" src="images/icons8-user-menu-male-24.png" alt="profile-icon">Profile</li>
+                <li><img class="sidebar-image" src="images/icons8-chat-room-50.png" alt="message-icon">Messages</li>
+                <li><img class="sidebar-image" src="images/icons8-time-machine-50.png" alt="history-icon"> History</li>
+                <li><img class="sidebar-image" src="images/icons8-list-64.png" alt="task-icon"> Tasks</li>
+                <li><img class="sidebar-image" src="images/icons8-people-50.png" alt="Communities-icon"> Communities</li>
             </ul>
         </div>
         <div class="support-items">
             <ul>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li><img class="sidebar-image" src="images/icons8-support-50.png" alt="settings-icon"> Settings</li>
+                <li><img class="sidebar-image" src="images/icons8-inquiry-50.png" alt="support-icon"> Support</li>
+                <li><img class="sidebar-image" src="images/icons8-security-lock-50.png" alt="privacy-icon"> Privacy</li>
             </ul>
         </div>
     </div>
     <div class="main">
         <div class="projects">
-            <h2>Your Projects</h2>
+            <h2 class="projects-header">Your Projects</h2>
             <div class="card-container">
                 <div class="card">
-                    <span>content</span>
+                    <div class="card-left"></div>
+                    <div class="card-right">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                            numquam blanditiis harum quisquam</p>
+                        <div class="card-icons">
+                            <img class="card-icons-img" src="images/favorite.png" alt="favorite-icon">
+                            <img class="card-icons-img" src="images/watch-list.png" alt="watchlist-icon">
+                            <img class="card-icons-img" src="images/share.png" alt="share-icon">
+                        </div>
+                    </div>
                 </div>
                 <div class="card">
-                    <span>content</span>
+                    <div class="card-left"></div>
+                    <div class="card-right">
+                        <h3>Less Cool Project</h3>
+                        <p>ius sed odit fugiat iusto fuga praesentium
+                            optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+                        <div class="card-icons">
+                            <img class="card-icons-img" src="images/favorite.png" alt="favorite-icon">
+                            <img class="card-icons-img" src="images/watch-list.png" alt="watchlist-icon">
+                            <img class="card-icons-img" src="images/share.png" alt="share-icon">
+                        </div>
+                    </div>
                 </div>
                 <div class="card">
-                    <span>content</span>
+                    <div class="card-left"></div>
+                    <div class="card-right">
+                        <h3>Impossible App</h3>
+                        <p>Veritatis
+                            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                            nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,</p>
+                        <div class="card-icons">
+                            <img class="card-icons-img" src="images/favorite.png" alt="favorite-icon">
+                            <img class="card-icons-img" src="images/watch-list.png" alt="watchlist-icon">
+                            <img class="card-icons-img" src="images/share.png" alt="share-icon">
+                        </div>
+                    </div>
                 </div>
                 <div class="card">
-                    <span>content</span>
+                    <div class="card-left"></div>
+                    <div class="card-right">
+                        <h3>Easy Peasy App</h3>
+                        <p>temporibus enim commodi iusto libero magni deleniti quod quam 
+                            consequuntur! Commodi minima excepturi repudiandae velit hic maxime
+                            doloremque. Quaerat provident commodi consectetur</p>
+                        <div class="card-icons">
+                            <img class="card-icons-img" src="images/favorite.png" alt="favorite-icon">
+                            <img class="card-icons-img" src="images/watch-list.png" alt="watchlist-icon">
+                            <img class="card-icons-img" src="images/share.png" alt="share-icon">
+                        </div>
+                    </div>
                 </div>
                 <div class="card">
-                    <span>content</span>
+                    <div class="card-left"></div>
+                    <div class="card-right">
+                        <h3>Add Blocker</h3>
+                        <p>mollitia maiores labore 
+                            suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
+                            modi minima sunt esse temporibus sint culpa</p>
+                        <div class="card-icons">
+                            <img class="card-icons-img" src="images/favorite.png" alt="favorite-icon">
+                            <img class="card-icons-img" src="images/watch-list.png" alt="watchlist-icon">
+                            <img class="card-icons-img" src="images/share.png" alt="share-icon">
+                        </div>
+                    </div>
                 </div>
                 <div class="card">
-                    <span>content</span>
+                    <div class="card-left"></div>
+                    <div class="card-right">
+                        <h3>Money Maker</h3>
+                        <p>recusandae aliquam numquam 
+                            totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam 
+                            quasi aliquam eligendi, placeat qui corporis!</p>
+                        <div class="card-icons">
+                            <img class="card-icons-img" src="images/favorite.png" alt="favorite-icon">
+                            <img class="card-icons-img" src="images/watch-list.png" alt="watchlist-icon">
+                            <img class="card-icons-img" src="images/share.png" alt="share-icon">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="announcements">
-            <h2>Announcements</h2>
+            <h2 class="announcements-heading">Announcements</h2>
+            <div class="announcements-container">
+                <div class="announcement-element">
+                    <h3 class="announcement-header">Site Maintanance</h3>
+                    <p class="announcement-content">obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                        nihil, eveniet aliquid culpa officia aut! Impedit </p>
+                </div> 
+                <div class="announcement-element">
+                    <h3 class="announcement-header">Community Share Day</h3>
+                    <p class="announcement-content">Sit laborum ab, eius fugit doloribus tenetur 
+                        fugiat, temporibus enim commodi iusto libero magni deleniti quod quam 
+                        consequuntur! </p>
+                </div>
+                <div class="announcement-element final">
+                    <h3 class="announcement-header">Updated Privacy Policy</h3>
+                    <p class="announcement-content">recusandae aliquam numquam 
+                        totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam 
+                        quasi aliquam eligendi, placeat qui corporis!</p>
+                </div>
+            </div>
         </div>
         <div class="trending">
-            <h2>Trending</h2>
+            <h2 class="trending-heading">Trending</h2>
+            <div class="trending-container">
+                <div class="trending-element">
+                    <img class="trending-image-sub" src="images/nemo.png" alt="user-trending">
+                    <div class="trending-element-text">
+                        <span class="user-name-trending">@nemo101</span>
+                        <p class="p-trending">Nemo Races Home</p>
+                    </div>
+                </div>
+                <div class="trending-element">
+                    <img class="trending-image-sub" src="images/dory.png" alt="user-trending">
+                    <div class="trending-element-text">
+                        <span class="user-name-trending">@DorySwims</span>
+                        <p class="p-trending">I Forgot...</p>
+                    </div>
+                </div>
+                <div class="trending-element">
+                    <img class="trending-image-sub" src="images/hank.png" alt="user-trending">
+                    <div class="trending-element-text">
+                        <span class="user-name-trending">@HankTheTank</span>
+                        <p class="p-trending">Project Rescue</p>
+                    </div>
+                </div>
+                <div class="trending-element">
+                    <img class="trending-image-sub" src="images/pearl.png" alt="user-trending">
+                    <div class="trending-element-text">
+                        <span class="user-name-trending">@pearlyPink</span>
+                        <p class="p-trending">Bubbles and Pink</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 <script src="main.js"></script>
